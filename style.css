@@ -1,0 +1,57 @@
+body{
+    background-image: url("background.jpeg");
+    text-align: center;
+
+}
+
+h1{
+    color: rgb(250, 7, 230);
+    font-family: HiraMinProN-W3;
+}
+
+
+.tekari img{
+    width: 45%;
+}
+
+.shop{
+    margin: 0 auto;
+}
+
+.shop img{
+    width: 8%;
+    padding: 0 2% 0 2%;
+    object-fit: contain;
+}
+
+.shop p{
+    font-size: xx-large;
+    font-family: "Yu Gothic";
+    color: rgb(8, 249, 197);
+    font-weight: normal;
+}
+
+a{
+    color: red;
+    font-weight: bold;
+
+}
+
+.link a{
+    color: rgb(170, 233, 10);
+    font-size: x-large;
+    font-weight: bold;
+    display: block;
+}
+
+
+@media screen and (max-width:500px) {
+    .shop img{
+        width: 40%;
+        padding: 0 2% 0 2%;
+    }
+
+    .tekari img{
+        width: 98%;
+    }
+}
